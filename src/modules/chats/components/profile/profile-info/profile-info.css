@@ -1,0 +1,106 @@
+.profile-page {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    font-family: Inter;
+    color: #1e1e1e;
+}
+
+.profile-page__back-to-chats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 64px;
+    padding: 18px;
+    border-right: 1px solid #eaeaea;
+    background-color: #fbfbfb;
+}
+
+.profile-page__back-to-chats-button {
+    /* Add any styles if needed */
+}
+
+.profile-page__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 60px;
+}
+
+.profile-page__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 60px;
+    gap: 10px;
+}
+
+.profile-page__avatar {
+    margin-bottom: 21px;
+    border-radius: 50%;
+}
+
+.profile-page__name {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: center;
+}
+
+.profile-page__info-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 510px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.profile-page__info-label {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+}
+
+.profile-page__info-value {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: right;
+    color: #999999;
+}
+
+.profile-page__actions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 510px;
+    gap: 21px;
+}
+
+.profile-page__action {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: left;
+    color: #3369f3;
+}
+
+.profile-page__action:visited {
+    color: #3369f3;
+}
+
+.profile-page__action--logout {
+    color: #ff0000;
+}
+
+.profile-page__action--logout:visited {
+    color: #ff0000;
+}
+.hidden {
+    display: none;
+}

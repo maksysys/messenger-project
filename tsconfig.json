@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "jsxFactory": "jsx",
+        "forceConsistentCasingInFileNames": true,
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "paths": {
+            "vite": ["./node_modules/vite/index"]
+        }
+    },
+    "include": ["src/**/*"]
+}

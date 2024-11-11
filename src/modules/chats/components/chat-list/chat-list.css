@@ -1,0 +1,126 @@
+/* chat-list.css */
+.chat-list {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-grow: 0.3;
+    border-right: 1px solid #eaeaea;
+    font-family: Inter;
+    padding: 10px;
+    resize: horizontal;
+    overflow: hidden;
+    position: relative;
+}
+.profile-link {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    text-align: right;
+    color: #999999;
+    text-decoration: none;
+    min-height: 56px;
+}
+.profile-link:visited {
+    color: #999999;
+}
+
+.chat-list__search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #efefef;
+    border-radius: 6px;
+    min-height: 32px;
+    padding: 10px 0 10px 40px;
+}
+.chat-list__search-field {
+    background-color: #efefef;
+    min-width: 37px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    max-width: 100%;
+}
+.chat-list__search-field:focus {
+    width: 100%;
+}
+
+.chat-items {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.chat-items::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.chat-item {
+    display: flex;
+    border-bottom: 1px solid #eaeaea;
+    min-height: 67px;
+    margin: 12px 0;
+}
+.chat-item__avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-item__details {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+}
+.chat-item__name {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 13px;
+    text-align: left;
+}
+.chat-item__last-message {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    display: inline;
+    white-space: nowrap;
+    color: #999999;
+}
+.chat-item__time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 35px;
+    margin-bottom: 12px;
+}
+.chat-item__time-text {
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 13px;
+    text-align: right;
+    color: #999999;
+}
+.chat-item__unread-messages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3369f3;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.chat-item__unread-messages-text {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #fff;
+}
+.hidden {
+    display: none;
+}

@@ -1,0 +1,12 @@
+/* chat-page.css */
+.chat-page {
+    display: flex;
+    width: 100%;
+    color: #1e1e1e;
+    font-family: Inter;
+    padding: 0 10px;
+}
+.chat-box__avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+}
